@@ -30,7 +30,7 @@ public class SegundoIntentoTh {
     public static void main(String[] args) {
                 try {
             // TODO code application logic here
-            DatagramSocket miSocket= new DatagramSocket(5005);
+            DatagramSocket miSocket= new DatagramSocket(5010);
             byte[] buffer = new byte[1824];
             while(true)
             {
